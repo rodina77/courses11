@@ -1,0 +1,280 @@
+html{
+    font-family: 'Cairo', sans-serif;
+}
+
+
+@keyframes animationFramesOne {
+    0% {
+        transform: translate(0px, 0px) rotate(0deg);
+    }
+
+    20% {
+        transform: translate(73px, -1px) rotate(36deg);
+    }
+
+    40% {
+        transform: translate(141px, 72px) rotate(72deg);
+    }
+
+    60% {
+        transform: translate(83px, 122px) rotate(108deg);
+    }
+
+    80% {
+        transform: translate(-40px, 72px) rotate(144deg);
+    }
+
+    100% {
+        transform: translate(0px, 0px) rotate(0deg);
+    }
+}
+@keyframes animationFramesTwo {
+    0% {
+        transform: translate(0px, 0px) rotate(0deg);
+    }
+
+    20% {
+        transform: translate(83px, -1px) rotate(36deg);
+    }
+
+    40% {
+        transform: translate(101px, 72px) rotate(92deg);
+    }
+
+    60% {
+        transform: translate(43px, 122px) rotate(180deg);
+    }
+
+    80% {
+        transform: translate(-40px, 72px) rotate(144deg);
+    }
+
+    100% {
+        transform: translate(0px, 0px) rotate(0deg);
+    }
+}
+.header .imgs .shape1 {
+    position: absolute;
+    left: 65%;
+    top: 40%;
+    z-index: 99;
+    animation: animationFramesOne 10s infinite linear;
+}
+.header .imgs .shape2 {
+    position: absolute;
+    left: 45%;
+    top: -30%;
+    z-index: 99;
+    animation: animationFramesTwo 10s infinite linear;
+}
+.header .imgs .shape3 {
+    position: absolute;
+    left: 75%;
+    top: 10%;
+    z-index: 99;
+    animation: animationFramesOne 10s infinite linear;
+}
+.header .shape7 {
+    position: absolute;
+    left: 75%;
+    top: 10%;
+    z-index: 99;
+    animation: animationFramesOne 10s infinite linear;
+}
+.header .shape8 {
+    position: absolute;
+    left: 5%;
+    top: 10%;
+    z-index: 99;
+    animation: animationFramesOne 10s infinite linear;
+}
+.header .shape9 {
+    position: absolute;
+    left: 5%;
+    top: -20%;
+    z-index: 99;
+    animation: animationFramesOne 10s infinite linear;
+}
+.header .imgs .shape4 {
+    position: absolute;
+    left: 5%;
+    top: 16%;
+    z-index: 99;
+    animation: animationFramesTwo 10s infinite linear;
+}
+
+.header .imgs .shape5 {
+    position: absolute;
+    left: 25%;
+    top: 11%;
+    z-index: 99;
+    animation: animationFramesOne 10s infinite linear;
+}
+
+ .imgs .shape11 {
+    position: absolute;
+    left: 46%;
+    top: 10%;
+    z-index: 99;
+    animation: animationFramesOne 10s infinite linear;
+}
+ .imgs .shape22 {
+    position: absolute;
+    left: 45%;
+    top: 40%;
+    z-index: 99;
+    animation: animationFramesTwo 10s infinite linear;
+}
+ .imgs .shape33 {
+    position: absolute;
+    left: 5%;
+    top: 60%;
+    z-index: 99;
+    animation: animationFramesOne 10s infinite linear;
+}
+ .imgs .shape44 {
+    position: absolute;
+    left: 10%;
+    top: 50%;
+    z-index: 99;
+    animation: animationFramesOne 10s infinite linear;
+}
+ .imgs .shape55 {
+    position: absolute;
+    left: 25%;
+    top: 10%;
+    z-index: 99;
+    animation: animationFramesOne 10s infinite linear;
+}
+.header {
+    padding: 10px 0;
+    position: relative
+}
+
+.butt1
+{
+    background-color: #E20813;
+    padding: 7px 25px;
+    border-radius: 10px;
+    border: unset;
+    margin-left: 30px;
+
+}
+.butt2
+{
+    background-color: #E20813;
+    padding: 7px 25px;
+    border-radius: 10px;
+    border: unset;
+
+}
+.butt1 a,.butt2 a
+{
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Cairo', sans-serif;
+    font-size: 13px;
+
+}
+.butt2
+{
+    display: block;
+    margin: auto;
+}
+.butt1 a:hover,.butt2 a:hover
+{
+    text-decoration: none;
+}
+#water
+{
+    background-image: url(../img/watermark.svg);
+}
+h2
+{
+    color: #fff;
+}
+.footer1 h3
+{
+    text-align:right;font-size: 18px; color: #fff;margin-bottom: 20px;  font-family: 'Cairo', sans-serif;
+}
+.footer1 p
+{
+    color: #9C9C9C;text-align:right;font-size: 12px; font-family: 'Cairo', sans-serif;
+}
+.part1
+{
+    position:absolute; right: 192px;
+}
+.navbar-toggler {
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url(../img/Menu.png);
+}
+.part2
+{
+    position:absolute; right: 42px; border: 1px solid #E20813; border-radius: 180px; margin-bottom: 10px;
+}
+@media(max-width:992px)
+{
+    .navbar-toggler
+    {
+     float: left;
+    }
+}
+@media(max-width:991px)
+{
+    .contactimg
+    {
+        display: block;
+        margin: auto;
+    }
+    .white_form
+    {
+       display: block;
+       margin: auto;
+       margin-top: 30px;
+    }
+    .nav-link
+    {
+        text-align: center;
+    }
+
+  
+}
+
+@media(max-width:768px)
+{
+    .footer1 h3,.footer1 p
+    {
+        text-align: center;
+    }
+    .butt1
+    {
+        margin-left: 0px;
+    }
+    .navbar-toggler
+    {
+     margin-right: 30px;
+    }
+}
+
+@media(max-width:400px)
+{
+   .part1
+   {
+    right: 102px;
+   }
+   .part2
+   {
+    right: 10px;
+   }
+  
+}
